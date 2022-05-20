@@ -47,7 +47,7 @@ const Home = () => {
                   <div class="card-body px-4 py-5 px-md-5">
                     <h1 class="display-3 fw-bold ls-tight mb-4">
                       <span>All of your Presentation needs</span> <br />
-                      <span class="text-primary">on Presentio</span>
+                      <span class="text-primary">on Presentious</span>
                     </h1>
                     <button
                       class="btn btn-primary btn-lg py-3 px-5 mb-2 mb-md-0 me-md-2"
