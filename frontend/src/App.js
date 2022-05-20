@@ -6,6 +6,7 @@ import Admin from "./components/admin";
 import Main from "./components/main";
 import User from "./components/user";
 import AdminProfile from "./components/admin/profile";
+import Home from "./components/main/home";
 
 function App() {
   return (
@@ -14,7 +15,10 @@ function App() {
         <Route element={<Admin />} path="admin">
           <Route element={<AdminProfile />} path="profile" />
         </Route>
-        <Route element={<Main />} path="main"></Route>
+        <Route element={<Main />} path="main">
+        <Route element={<Home />} path="home" />
+
+        </Route>
         <Route element={<User />} path="user"></Route>
 
         {/* <Route element={<Login />} path="/login"></Route> */}
