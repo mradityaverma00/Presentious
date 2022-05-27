@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Sidebar from "../sidebar";
+import Sidebar from "./sidebar";
 import { AccountCircle, Dashboard } from "@mui/icons-material";
 
 const Admin = () => {
@@ -10,11 +10,11 @@ const Admin = () => {
       icon: <AccountCircle />,
       link: "/admin/profile",
     },
-    {
-      name: "Dashboard",
-      icon: <Dashboard />,
-      link: "/admin/dashboard",
-    },
+    // {
+    //   name: "Dashboard",
+    //   icon: <Dashboard />,
+    //   link: "/admin/dashboard",
+    // },
     {
       name: "Add New Slide",
       icon: <Dashboard />,
@@ -29,7 +29,6 @@ const Admin = () => {
 
   return (
     <div>
-      <h1>Admin</h1>
       <Sidebar sidebarOptions={sidebarOptions} title="Admin Dashboard">
         <Outlet />
       </Sidebar>

@@ -86,7 +86,7 @@ const AddSlide = () => {
   };
 
   return (
-    <div>
+    <div className="mt-5 container">
       <header>
         <h1>Add New Presentation</h1>
         <p>Othelo</p>
