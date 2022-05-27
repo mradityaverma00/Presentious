@@ -17,7 +17,7 @@ const AdminProfile = (props) => {
   const [loading, setLoading] = useState(true);
   const [updateForm, setUpdateForm] = useState({});
   const [currentUser, setCurrentUser] = useState(
-    JSON.parse(sessionStorage.getItem("user"))
+    JSON.parse(sessionStorage.getItem("admin"))
   );
   const [selImage, setSelImage] = useState("");
   const url = app_config.backend_url;
@@ -44,7 +44,7 @@ const AdminProfile = (props) => {
         res.json().then((data) => {
           console.log(data);
           setCurrentUser(data);
-          sessionStorage.setItem("user", JSON.stringify(data));
+          sessionStorage.setItem("admin", JSON.stringify(data));
         });
       }
       Swal.fire({
@@ -77,7 +77,7 @@ const AdminProfile = (props) => {
             res.json().then((data) => {
               console.log(data);
               setCurrentUser(data);
-              sessionStorage.setItem("user", JSON.stringify(data));
+              sessionStorage.setItem("admin", JSON.stringify(data));
             });
           }
           Swal.fire({

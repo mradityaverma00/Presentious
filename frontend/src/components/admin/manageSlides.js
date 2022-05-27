@@ -285,7 +285,7 @@ const ManageSlide = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container mt-5">
       <h1>Manage Slides</h1>
       {displayData()}
     </div>
