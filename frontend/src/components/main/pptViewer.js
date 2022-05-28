@@ -68,6 +68,7 @@ const PPTViewer = () => {
     }).then((res) => {
       if (res.status === 200) {
         toast.success("Review💬 Added");
+        fetchRatings();
       }
     });
   };
@@ -87,6 +88,35 @@ const PPTViewer = () => {
     }
   };
 
+  const showRatingForm = () => {
+    if (currentUser === null)
+      return (
+        <h3 className="text-muted text-center my-4">
+          Login to add your Review for this slide!!
+        </h3>
+      );
+
+    return (
+      <div>
+        <h4 className="text-muted">Your Review</h4>
+        <hr />
+        <Rating name="simple-controlled" value={4} />
+        <TextField
+          label="Write Something .."
+          fullWidth
+          className="mt-2"
+          multiline
+          rows={3}
+          value={reviewText}
+          onChange={(e) => setReviewText(e.target.value)}
+        />
+        <button className="btn btn-primary mt-3 float-end" onClick={addRating}>
+          Submit Review
+        </button>
+      </div>
+    );
+  };
+
   const displayData = () => {
     if (!loading) {
       return (
@@ -103,8 +133,7 @@ const PPTViewer = () => {
               >
                 Download Slide
               </a>
-              <p>
-                <iframe
+              {/* <iframe
                   src={
                     "https://view.officeapps.live.com/op/embed.aspx?src=[" +
                     url +
@@ -115,8 +144,7 @@ const PPTViewer = () => {
                   width="100%"
                   height="600px"
                   frameborder="0"
-                />
-              </p>
+                /> */}
               <div className="ripple">
                 <img
                   src={url + "/uploads/" + pptData.thumbnail}
@@ -124,40 +152,11 @@ const PPTViewer = () => {
                   alt={pptData.title}
                 />
               </div>
-              <iframe
-                src={
-                  "https://view.officeapps.live.com/op/embed.aspx?src=" +
-                  url +
-                  "/uploads/" +
-                  pptData.file
-                }
-                width="100%"
-                height="600px"
-                frameBorder="0"
-                title={pptData.title}
-              ></iframe>
 
               <div className="reviews mt-5">
                 {displayRatings()}
 
-                <h4 className="text-muted">Your Review</h4>
-                <hr />
-                <Rating name="simple-controlled" value={4} />
-                <TextField
-                  label="Write Something .."
-                  fullWidth
-                  className="mt-2"
-                  multiline
-                  rows={3}
-                  value={reviewText}
-                  onChange={(e) => setReviewText(e.target.value)}
-                />
-                <button
-                  className="btn btn-primary mt-3 float-end"
-                  onClick={addRating}
-                >
-                  Submit Review
-                </button>
+                {showRatingForm()}
               </div>
             </div>
           </div>
