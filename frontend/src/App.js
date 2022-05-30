@@ -21,6 +21,7 @@ import AdminAuthorisor from "./components/adminAuth";
 import Authorisor from "./components/authenticator";
 import BrowseSlides from "./components/main/browseSlides";
 import PPTViewer from "./components/main/pptViewer";
+import UserProfile from "./components/profile";
 
 function App() {
   return (
@@ -49,7 +50,7 @@ function App() {
           }
           path="user"
         >
-          <Route element={<Profile />} path="profile" />
+          <Route element={<UserProfile />} path="profile" />
         </Route>
         <Route element={<Main />} path="main">
           <Route element={<Login />} path="signin" />
