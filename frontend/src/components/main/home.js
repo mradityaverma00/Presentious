@@ -318,7 +318,6 @@ easy to read.  Well done!
                   <div class="col-lg-6 mb-5 mb-lg-0">
                     <h1
                       class="my-4 display-3 fw-bold ls-tight"
-                      style={{ color: "hsl(218, 81%, 95%)" }}
                     >
                     <span >Do not miss</span> <br />
                       <span style={{ color: "hsl(218, 81%, 75%)" }}>
@@ -328,7 +327,7 @@ easy to read.  Well done!
                     <p
                       class="mb-4 opacity-70 lead"
                       style={{ color: "hsl(218, 81%, 85%)" }}>
-                   >
+                   
                     We will write rarely and only high-quality content.
                     </p>
                   </div>
