@@ -135,7 +135,7 @@ const BrowseSlides = () => {
       <header style={styles.header}>
         <div className="container">
           <Typography className="text-center text-white" variant="h5">
-            Presentio
+            Presentious
           </Typography>
           <Typography className="text-center text-white" variant="h2">
             Explore Powerpoint Slides

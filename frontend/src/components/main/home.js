@@ -82,12 +82,10 @@ const Home = () => {
                       </div>
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">Support 24/7</h5>
+                      <h5 class="card-title">Support 24*7</h5>
                       <p class="card-text">
-                        Laudantium totam quas cumque pariatur at doloremque hic
-                        quos quia eius. Reiciendis optio minus mollitia rerum
-                        labore facilis inventore voluptatem ad, quae quia sint.
-                        Ullam.
+                        There are 24*7 costumer care executive available for any queries and support 
+                        we are also provide telephonic support on costumer request.
                       </p>
                     </div>
                   </div>
@@ -108,9 +106,9 @@ const Home = () => {
                     <div class="card-body">
                       <h5 class="card-title">Safe and solid</h5>
                       <p class="card-text">
-                        Eum nostrum fugit numquam, voluptates veniam neque
-                        quibusdam ullam aspernatur odio soluta, quisquam dolore
-                        animi mollitia a omnis praesentium, expedita nobis!
+                        This is the most safe place for create your presentation 
+                        there no bugs to intrupt in your presentation 
+                        you can create , edit and share your presentation easly.
                       </p>
                     </div>
                   </div>
@@ -131,9 +129,9 @@ const Home = () => {
                     <div class="card-body">
                       <h5 class="card-title">Extremely fast</h5>
                       <p class="card-text">
-                        Enim cupiditate, minus nulla dolor cumque iure eveniet
-                        facere ullam beatae hic voluptatibus dolores
-                        exercitationem? Facilis debitis aspernatur amet nisi?
+                        This is the fastest way to create edit and share your presentation 
+                        you can design your ppts very shortly and easly . There are no lagging problem
+                        you can access slide by your Presentation topic. 
                       </p>
                     </div>
                   </div>
@@ -150,7 +148,7 @@ const Home = () => {
         >
           <section draggable="false" class="container pt-5" data-v-271253ee="">
             <section class="mb-10 text-center">
-              <h2 class="fw-bold mb-5">Photographer</h2>
+              <h2 class="fw-bold mb-5">User Reviews</h2>
               <div
                 id="carouselExampleControls"
                 class="carousel slide carousel-dark carousel-fade"
@@ -173,13 +171,12 @@ const Home = () => {
                         <p class="text-muted">
                           <i class="fas fa-quote-left pe-2"></i>
                           <span>
-                            In ac turpis justo. Vivamus auctor quam vitae odio
-                            feugiat pulvinar. Sed semper ligula sed lorem
-                            tincidunt dignissim. Nam sed cursus lectus. Proin
-                            non rutrum magna. Proin gravida, justo et imperdiet
-                            tristique, turpis nisi viverra est, nec posuere ex
-                            arcu sit amet erat. Sed a dictum sem. Duis pretium
-                            condimentum nulla.
+                            
+It is easy to navigate  this site  because  all of the links are right
+there on the left hand side, and people without image-loading browsers
+can access the links via the text at the  bottom  which is very  handy
+and essential  for a good site.
+                            
                           </span>
                         </p>
                       </div>
@@ -218,11 +215,9 @@ const Home = () => {
                         <p class="text-muted">
                           <i class="fas fa-quote-left pe-2"></i>
                           <span>
-                            Maecenas auctor, quam eget tincidunt pretium, felis
-                            diam semper turpis, sed scelerisque diam libero
-                            facilisis libero. Quisque vitae semper metus.
-                            Aliquam eu dui aliquam, faucibus metus quis,
-                            elementum nunc. .
+                            
+The design is very  consistent  throughout all of the pages- clean and
+easy to read.  Well done!
                           </span>
                         </p>
                       </div>
@@ -261,10 +256,9 @@ const Home = () => {
                         <p class="text-muted">
                           <i class="fas fa-quote-left pe-2"></i>
                           <span>
-                            Duis sagittis, turpis in ullamcorper venenatis,
-                            ligula nibh porta dui, sit amet rutrum enim massa in
-                            ante. Curabitur in justo at lorem laoreet ultricies.
-                            Nunc ligula felis, sagittis eget nisi vitae.
+                            Presentious is very cool website to create preesentation easly
+                            and very short time .
+                            there are so many good tamplates.
                           </span>
                         </p>
                       </div>
@@ -326,16 +320,16 @@ const Home = () => {
                       class="my-4 display-3 fw-bold ls-tight"
                       style={{ color: "hsl(218, 81%, 95%)" }}
                     >
-                      <span>Do not miss</span> <br />
+                    <span >Do not miss</span> <br />
                       <span style={{ color: "hsl(218, 81%, 75%)" }}>
                         any updates
                       </span>
                     </h1>
                     <p
                       class="mb-4 opacity-70 lead"
-                      style={{ color: "hsl(218, 81%, 85%)" }}
-                    >
-                      We will write rarely and only high-quality content.
+                      style={{ color: "hsl(218, 81%, 85%)" }}>
+                   >
+                    We will write rarely and only high-quality content.
                     </p>
                   </div>
                   <div class="col-lg-6 mb-5 mb-lg-0">

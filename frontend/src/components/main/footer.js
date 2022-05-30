@@ -126,7 +126,7 @@ const Footer = () => {
       >
         © {new Date().getFullYear()} Copyright:
         <a class="text-white" href="https://digipodium.com/">
-          Othelo.com
+          Presentious.com
         </a>
       </div>
     </footer>

@@ -19,6 +19,8 @@ import { Toaster } from "react-hot-toast";
 import ResetPassword from "./components/main/resetPassword";
 import AdminAuthorisor from "./components/adminAuth";
 import Authorisor from "./components/authenticator";
+import BrowseSlides from "./components/main/browseSlides";
+import PPTViewer from "./components/main/pptViewer";
 
 function App() {
   return (
@@ -54,8 +56,8 @@ function App() {
           <Route element={<Signup />} path="signup" />
           <Route element={<ResetPassword />} path="resetpassword" />
           <Route element={<Home />} path="home" />
-          {/* <Route element={<BrowseSlides />} path="browseSlides" /> */}
-          {/* <Route element={<PPTViewer />} path="pptviewer/:id" /> */}
+          <Route element={<BrowseSlides />} path="browseSlides" />
+          <Route element={<PPTViewer />} path="pptviewer/:id" />
           <Route element={<NotFound />} path="404" />
         </Route>
         <Route element={<Navigate to="/main/home" />} path="" />

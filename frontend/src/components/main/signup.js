@@ -67,7 +67,7 @@ const Signup = () => {
                 {({ values, handleSubmit, handleChange }) => {
                   return (
                     <form onSubmit={handleSubmit}>
-                      <p className="text-center text-muted my-1">Othelo</p>
+                      <p className="text-center text-muted my-1">Presentious</p>
                       <h3 className="text-center mb-4">Create New Account</h3>
                       <div>
                         <TextField
