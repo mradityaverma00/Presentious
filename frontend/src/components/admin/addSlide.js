@@ -2,7 +2,7 @@ import { Grid, TextField } from "@mui/material";
 import { Formik } from "formik";
 import React, { useState } from "react";
 import Swal from "sweetalert2";
-import app_config from "../../config";
+import app_config from "../config";
 import toast from "react-hot-toast";
 
 const AddSlide = () => {
