@@ -2,7 +2,7 @@ import { Grid, TextField } from "@mui/material";
 import { Formik } from "formik";
 import React, { useState } from "react";
 import Swal from "sweetalert2";
-import app_config from "../config";
+import app_config from "../../config";
 import toast from "react-hot-toast";
 
 const AddSlide = () => {
@@ -89,7 +89,7 @@ const AddSlide = () => {
     <div className="mt-5 container">
       <header>
         <h1>Add New Presentation</h1>
-        <p>PRESENTIOUS</p>
+        <p>Othelo</p>
       </header>
       <div className="card">
         <div className="card-body">

@@ -7,7 +7,6 @@ import User from "./components/user";
 import Main from "./components/main";
 import Dashboard from "./components/admin/dashboard";
 import Signup from "./components/main/signup";
-import Profile from "./components/user/profile";
 import NotFound from "./components/main/notFound";
 import Home from "./components/main/home";
 import AdminProfile from "./components/admin/profile";
@@ -21,7 +20,7 @@ import AdminAuthorisor from "./components/adminAuth";
 import Authorisor from "./components/authenticator";
 import BrowseSlides from "./components/main/browseSlides";
 import PPTViewer from "./components/main/pptViewer";
-import UserProfile from "./components/profile";
+import UserProfile from "./components/user/profile";
 
 function App() {
   return (
