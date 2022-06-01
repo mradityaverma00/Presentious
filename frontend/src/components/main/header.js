@@ -24,6 +24,7 @@ import { useNavigate } from "react-router-dom";
 import { ListItemIcon, ListItemText } from "@mui/material";
 import { useEffect, useState } from "react";
 
+
 const pages = [
   {
     name: "Browse Slides",
@@ -115,7 +116,7 @@ const Header = () => {
               component="div"
               sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
             >
-              Presentio
+              Presentious
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>

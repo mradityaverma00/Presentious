@@ -18,14 +18,7 @@ const AdminAuthorisor = ({ children }) => {
       text: "You need to be logged in",
     });
     return <Navigate to="/main/login" />;
-  } else if (currentUser) {
-    console.log(currentUser);
-    if (currentUser.isAdmin) {
-      navigate("/admin");
-    } else {
-      navigate("/reporter");
-    }
-  }
+  } 
 
   return children;
 };

@@ -37,7 +37,7 @@ const Login = () => {
         res.json().then((data) => {
           if (data.isAdmin) {
             sessionStorage.setItem("admin", JSON.stringify(data));
-            navigate("/admin/dashboard");
+            navigate("/admin/addslide");
             return;
           }
           sessionStorage.setItem("user", JSON.stringify(data));
@@ -68,7 +68,7 @@ const Login = () => {
                 {({ values, handleSubmit, handleChange }) => {
                   return (
                     <form onSubmit={handleSubmit}>
-                      <p className="text-center text-muted my-1">Presentio</p>
+                      <p className="text-center text-muted my-1">Presentious</p>
                       <h3 className="text-center mb-4">Login Now</h3>
                       <div>
                         <h6>Email Address</h6>
